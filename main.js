@@ -15,4 +15,5 @@ $(".main").onepage_scroll({
     // the browser's width is less than 600, the fallback will kick in.
     direction: "vertical" // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
 });
+
 });

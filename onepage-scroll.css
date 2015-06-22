@@ -1,3 +1,35 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {  
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote:before, blockquote:after,q:before, q:after {
+  content: '';
+  content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+        
+
 body, html {
   margin: 0;
   overflow: hidden;
@@ -100,7 +132,17 @@ body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
 }
 
 .bg2{
-  background-image: url("https://download.unsplash.com/photo-1428263197823-ce6a8620d1e1");
+  background-image: url("https://download.unsplash.com/photo-1429305336325-b84ace7eba3b");
+  background-size: cover;
+}
+
+.bg3{
+  background-image: url("https://download.unsplash.com/photo-1429616588302-fec569e203ce");
+  background-size: cover;
+}
+
+.bg4{
+  background-image: url("https://download.unsplash.com/reserve/iFJ5qQylTD2POC68qBgh_Uluru.jpg");
   background-size: cover;
 }
 
@@ -131,3 +173,16 @@ body {
      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
 }
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+    background-color: rgba(46,252,166,0.8);
+    text-align: center;
+    font-size: 72px;
+    line-height: 108px;
+    height: 108px;
+    font-family: 'PT Sans', sans-serif;
+  }
